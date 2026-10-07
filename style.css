@@ -73,9 +73,14 @@ body {
 }
 
 .btn-primary {
-    background-color: #3882F6;
+    background-color: #059669;
     border: none;
     margin-top: 15px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
 }
 
 .placeholder {
@@ -108,7 +113,7 @@ body {
 }
 
 .square {
-    border: 3px solid #3882F6;
+    border: 3px solid #059669;
     border-radius: 10px;
     width: 130px;
     height: 130px;
@@ -155,4 +160,35 @@ body {
     font-weight: 700;
     font-style: normal;
     margin-top: 5px;
+}
+
+.cta {
+    background-color: #FFFFFF;
+    padding: 100px;
+}
+
+.cta-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #059669;
+    border-radius: 10px;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-main-text, .cta-sub-text {
+    color: #FFFFFF;
+}
+
+.cta-main-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.cta-sub-text {
+    font-size: 14px;
+    margin-top: 0;
 }
