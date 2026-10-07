@@ -1,0 +1,1 @@
+This is a landing page, based on a model provided. It will be written in HTML and CSS.
