@@ -135,7 +135,7 @@ body {
 }
 
 .quote {
-    background-color: #E2E8F0;
+    background-color: #36454F;
     font-size: 36px;
     color: #36454F;
     font-weight: 300;
@@ -148,6 +148,7 @@ body {
 }
 
 .quote-phrase {
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     max-width: 800px;
@@ -155,6 +156,7 @@ body {
 }
 
 .quote-author {
+    color: #FFFFFF;
     align-self: flex-end;
     font-size: 20px;
     font-weight: 700;
@@ -191,4 +193,10 @@ body {
 .cta-sub-text {
     font-size: 14px;
     margin-top: 0;
+}
+
+.footer {
+    text-align: center;
+    color: #36454F;
+    padding: 60px 0;
 }
